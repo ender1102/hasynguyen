@@ -16,7 +16,7 @@ This application allows users to convert an amount from one currency to another 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/hasynguyen.git
+    git clone https://github.com/ender1102/hasynguyen.git
     cd hasynguyen/src/problem2
     ```
 
