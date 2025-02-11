@@ -9,12 +9,12 @@ import { Toaster } from 'react-hot-toast'
 
 const root = document.getElementById('root')
 
-{/* <React.StrictMode> */}
-        /* </React.StrictMode> */
 ReactDOM.createRoot(root!).render(
+	<React.StrictMode>
 		<ThemeProvider theme={theme}>
 			<CssBaseline />
-            <Toaster position='bottom-center' reverseOrder={false} />
-				<App />
+			<Toaster position='bottom-center' reverseOrder={false} />
+			<App />
 		</ThemeProvider>
+	</React.StrictMode>
 )
