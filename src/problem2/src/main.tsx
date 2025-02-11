@@ -5,7 +5,6 @@ import App from './App'
 import { ThemeProvider } from '@mui/material/styles'
 import { theme } from './utils'
 import { CssBaseline } from '@mui/material'
-import '@/assets/icons/icons.css'
 import { Toaster } from 'react-hot-toast'
 
 const root = document.getElementById('root')
